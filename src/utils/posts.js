@@ -4,10 +4,10 @@ import { join } from 'path';
 
 const BLOG_DIR = join(process.cwd(), 'src/content/blog');
 
-const load = () => {
+const load = async () => {
   const files = fs.readdirSync(BLOG_DIR);
 
-  const posts = Promise.all(
+  const posts = await Promise.all(
     files
       .filter((filename) => filename.endsWith('.md'))
       .map(async (filename) => {
@@ -21,22 +21,19 @@ const load = () => {
 
 let _posts;
 
-/** */
 export const fetchPosts = async () => {
   _posts = _posts || load();
 
   return await _posts;
 };
 
-/** */
 export const findLatestPosts = async ({ count } = {}) => {
-  const _count = count || 4;
+  const _count = count || 8; // change if u want more articles, multiples of 2
   const posts = await fetchPosts();
 
-  return posts ? posts.slice(_count * -1) : [];
+  return posts ? posts.slice(0, _count) : [];
 };
 
-/** */
 export const findPostBySlug = async (slug) => {
   if (!slug) return null;
 
@@ -53,7 +50,6 @@ export const findPostBySlug = async (slug) => {
   return null;
 };
 
-/** */
 export const findPostsByIds = async (ids) => {
   if (!Array.isArray(ids)) return [];
 
