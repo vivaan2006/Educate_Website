@@ -81,7 +81,7 @@ export const headerData: HeaderProps = {
           href: '/pricing',
         },
         {
-          label: 'Contact us',
+          label: 'Hello',
           href: '/contact',
         },
         {
