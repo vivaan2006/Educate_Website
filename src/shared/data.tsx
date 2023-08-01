@@ -125,7 +125,7 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
+     im a good human <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
       <span className="sm:whitespace-nowrap">Tailwind CSS</span>
     </>
   ),
@@ -133,7 +133,7 @@ export const heroData: HeroProps = {
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+          Educate!
         </span>{' '}
         is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
       </span>{' '}
