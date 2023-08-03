@@ -181,33 +181,33 @@ export const faqsData: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Welcome to the Educate! Frequently Asked Questions section. Find answers to common questions about our organization and our mission to provide educational resources to less fortunate regions.',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'Who we are and what we do?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'Who are we and what do we do?',
+      description: `Educate! is a non-profit organization dedicated to providing educational resources from kindergarten to 12th grade for less fortunate regions and countries. Our mission is to empower young minds with knowledge and opportunities, enabling them to break the cycle of poverty through education.`,
     },
     {
       title: 'What values and principles guide our work?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      description: `At Educate!, we uphold the values of accessibility, inclusivity, and sustainability. We believe that education is a fundamental right for every child, regardless of their background. Our principles include transparency, accountability, and a commitment to making a positive impact in the communities we serve.`,
     },
     {
       title: 'What is our experience?',
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      description: `With years of experience in the education sector, we have successfully collaborated with schools, educators, and local communities to deliver educational resources where they are needed most. We have a proven track record of providing quality learning materials and support to underprivileged students.`,
     },
     {
       title: 'What is our team like?',
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      description: `Our team is composed of passionate and dedicated individuals who believe in the power of education to transform lives. From educators and content creators to logistics and operations specialists, each member of our team plays a crucial role in fulfilling our mission.`,
     },
     {
       title: 'How do we engage with the community?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      description: `We engage with local communities through partnerships with schools, NGOs, and other educational organizations. We conduct needs assessments and actively involve community members in the development and implementation of our programs. We believe in collaborative efforts to ensure the sustainability of our initiatives.`,
     },
     {
       title: 'What support channels do we offer?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      description: `We offer various support channels, including email support, community forums, and regional helplines. Our team is always available to address any questions or concerns related to our organization, donations, and the impact of our programs.`,
     },
   ],
 };
@@ -217,33 +217,29 @@ export const faqsData2: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      'Welcome to the Educate! Frequently Asked Questions section. Below are some common questions and answers about our organization and the book donation process. If you have more questions, feel free to reach out to us!',
     highlight: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'What do I need to start donating books?',
+      description: `To start donating books to Educate!, all you need is a collection of educational materials suitable for students from kindergarten to 12th grade. These can include textbooks, storybooks, educational games, and stationery items. You can check our donation guidelines on our website for more details.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What impact will my book donation have?',
+      description: `By donating books to Educate!, you are directly contributing to the education and future of students in less fortunate regions. Your donation can open doors to knowledge and opportunities that were previously unavailable to these students. Together, we can make a significant difference in their lives.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: 'How can I get involved and help further?',
+      description: `We welcome volunteers, partners, and supporters who share our vision for education. You can get involved by participating in our community events, fundraising campaigns, or spreading awareness about our mission. Reach out to us via our contact page to explore collaboration opportunities.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: 'What is the process of receiving and distributing donations?',
+      description: `Once we receive book donations, our team carefully inspects and categorizes them based on grade levels and subjects. We then work closely with local schools and educational institutions in less fortunate regions to distribute the books to students who need them the most. This ensures that the donations reach the intended beneficiaries effectively.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
-    },
-    {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'Is my donation tax-deductible?',
+      description: `Yes, Educate! is a registered non-profit organization, and donations are generally tax-deductible in accordance with local tax laws. You will receive a donation receipt for your contributions, which you can use for tax purposes.`,
     },
   ],
 };
