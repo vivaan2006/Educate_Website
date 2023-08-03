@@ -73,15 +73,11 @@ export const headerData: HeaderProps = {
       icon: IconChevronDown,
       links: [
         {
-          label: 'About us',
+          label: 'About',
           href: '/about',
         },
         {
-          label: 'Pricing',
-          href: '/pricing',
-        },
-        {
-          label: 'Hello',
+          label: 'Contact',
           href: '/contact',
         },
         {
@@ -109,9 +105,9 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
+      text: 'Donate Now',
+      href: '/donate',
+      targetBlank: false,
       btnType: 'primary',
     },
   ],
@@ -125,83 +121,58 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-     im a good human <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Welcome to <span className="font-semibold">Educate!</span>
+      <span className="hidden md:inline"> - Empowering Education for All</span>
     </>
   ),
   subtitle: (
     <>
-      <span className="hidden md:inline">
-        <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          Educate!
-        </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
-      </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Educate! is a platform committed to providing educational resources for students in less fortunate regions, from kindergarten to 12th grade. Our mission is to empower young minds with knowledge and opportunities.
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
+    text: 'Donate Books',
+    href: '/donate',
     icon: IconDownload,
-    targetBlank: true,
+    targetBlank: false,
     btnType: 'primary',
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'Learn More',
     href: '/',
   },
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'Educational Books',
   },
 };
 
 // Hero2 data
 export const hero2Data: HeroProps = {
-  title: 'Great companies are made by great people',
+  title: 'Empowering Minds Through Books',
   subtitle:
-    'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui. Fusce pulvinar ante eget mattis semper. Suspendisse in diam massa.',
+    'Educate! believes that every child deserves access to quality education. By donating books, you can make a difference in the lives of students in less fortunate regions. Together, let\'s create a brighter future for our young generation.',
   callToAction: {
-    text: 'View jobs',
-    href: 'https://www.linkedin.com/',
-    targetBlank: true,
+    text: 'Donate Books Now',
+    href: '/donate',
+    targetBlank: false,
     btnType: 'primary',
   },
   callToAction2: {
-    text: 'Contact us',
+    text: 'Contact Us',
     href: '/contact',
   },
   image: {
     src: hero2Img,
-    alt: 'Hero TailNext',
+    alt: 'Educational Books',
   },
 };
+
 
 // SocialProof data
 export const socialProofData: SocialProofProps = {
   images: [
-    {
-      link: 'https://nextjs.org/',
-      src: nextJsLogo,
-      alt: 'NextJs Logo',
-    },
-    {
-      link: 'https://react.dev/',
-      src: reactLogo,
-      alt: 'React Logo',
-    },
-    {
-      link: 'https://tailwindcss.com/',
-      src: tailwindCssLogo,
-      alt: 'Tailwind CSS Logo',
-    },
-    {
-      link: 'https://www.typescriptlang.org/',
-      src: typescriptLogo,
-      alt: 'Typescript Logo',
-    },
+
   ],
 };
 
