@@ -44,7 +44,7 @@ import {
 
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/hero.webp';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
@@ -225,6 +225,7 @@ export const faqsData2: FAQsProps = {
       title: 'What do I need to start donating books?',
       description: `To start donating books to Educate!, all you need is a collection of educational materials suitable for students from kindergarten to 12th grade. These can include textbooks, storybooks, educational games, and stationery items. You can check our donation guidelines on our website for more details.`,
     },
+
     {
       title: 'What impact will my book donation have?',
       description: `By donating books to Educate!, you are directly contributing to the education and future of students in less fortunate regions. Your donation can open doors to knowledge and opportunities that were previously unavailable to these students. Together, we can make a significant difference in their lives.`,
@@ -443,219 +444,225 @@ export const callToActionData2: CallToActionProps = {
 // Feature data
 export const featuresData: FeaturesProps = {
   header: {
-    title: (
-      <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
-      </>
-    ),
-    subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.',
-    highlight: 'Features',
+  title: (
+  <>
+  What you get with <span className="whitespace-nowrap">Educate!</span>
+  </>
+  ),
+  subtitle:
+  'Explore the exciting features of Educate! that provide a seamless learning experience for students and educators alike.',
+  highlight: 'Features',
   },
   items: [
-    {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-      icon: IconBrandTailwind,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Ready-to-use Components',
-      description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-      icon: IconComponents,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Best Practices',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconListCheck,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Excellent Page Speed',
-      description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-      icon: IconRocket,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconBulb,
-      link: {
-        label: 'Discover now',
-        href: '/',
-      },
-    },
+  {
+  title: 'Comprehensive Course Material',
+  description:
+  'Access a wide range of course materials, including lectures, readings, quizzes, and assignments, to enhance your learning journey.',
+  icon: IconArrowDown,
+  link: {
+  label: 'Learn more',
+  href: '/courses',
+  },
+  },
+  {
+  title: 'Interactive Learning Widgets',
+  description:
+  'Engage in interactive learning with our widgets that make studying enjoyable and foster a deeper understanding of the subjects.',
+  icon: IconArrowDown,
+  link: {
+  label: 'Explore now',
+  href: '/widgets',
+  },
+  },
+  {
+  title: 'Real-Time Progress Tracking',
+  description:
+  'Stay on top of your progress with real-time tracking and performance analytics. Identify areas for improvement and excel in your studies.',
+  icon: IconArrowDown,
+  link: {
+  label: 'Check progress',
+  href: '/progress',
+  },
+  },
+  {
+  title: 'Collaborative Study Groups',
+  description:
+  'Connect with your peers and form study groups to share knowledge, discuss topics, and work together on group assignments.',
+  icon: IconArrowDown,
+  link: {
+  label: 'Join a group',
+  href: '/groups',
+  },
+  },
+  {
+  title: 'Expert Instructor Support',
+  description:
+  'Get personalized guidance and support from expert instructors who are passionate about helping you succeed in your academic journey.',
+  icon: IconArrowDown,
+  link: {
+  label: 'Meet instructors',
+  href: '/instructors',
+  },
+  },
+  {
+  title: 'Community Forums',
+  description:
+  'Participate in vibrant community forums where you can seek advice, share insights, and engage in discussions with like-minded learners.',
+  icon: IconArrowDown,
+  link: {
+  label: 'Join forums',
+  href: '/forums',
+  },
+  },
   ],
-};
-
-// Feature2 data
-export const featuresData2: FeaturesProps = {
+  };
+  
+  // Feature2 data
+  export const featuresData2: FeaturesProps = {
   header: {
-    title: 'Support Center',
-    subtitle: 'Looking for something in particular?',
+  title: 'Support Center',
+  subtitle: 'Looking for assistance or have questions? Our support team is here to help!',
   },
   items: [
-    {
-      title: 'Have a question?',
-      description: 'See our frequently asked questions',
-      icon: IconHelp,
-      link: {
-        href: '/faqs',
-      },
-    },
-    {
-      title: 'Chat with us',
-      description: 'Live chat with our support team',
-      icon: IconMessages,
-      link: {
-        href: '/',
-      },
-    },
-    {
-      title: 'Get help',
-      description: 'Speak to our team today',
-      icon: IconHeadset,
-      link: {
-        href: '/',
-      },
-    },
+  {
+  title: 'Frequently Asked Questions',
+  description: 'Find answers to common questions in our comprehensive FAQ section.',
+  icon: IconHelp,
+  link: {
+  href: '/faqs',
+  },
+  },
+  {
+  title: 'Live Chat Support',
+  description: 'Chat with our support team in real-time for immediate assistance.',
+  icon: IconMessages,
+  link: {
+  href: '/',
+  },
+  },
+  {
+  title: '24/7 Helpline',
+  description: 'Get round-the-clock support from our dedicated helpline.',
+  icon: IconHeadset,
+  link: {
+  href: '/',
+  },
+  },
   ],
-};
-
-// Feature data 3
-export const featuresData3: FeaturesProps = {
+  };
+  
+  // Feature data 3
+  export const featuresData3: FeaturesProps = {
   header: {
-    title: 'Services',
+  title: 'Services',
   },
   items: [
-    {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
-    },
-    {
-      title: 'Ready-to-use Components',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
-    },
-    {
-      title: 'Best Practices',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
-    },
-    {
-      title: 'Excellent Page Speed',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
-    },
-    {
-      title: 'Search Engine Optimization (SEO)',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-      icon: IconArrowsRightLeft,
-    },
-    {
-      title: 'Open to new ideas and contributions',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
-      icon: IconBulb,
-    },
+  {
+  title: 'Comprehensive Course Material',
+  description: 'Access a wide range of course materials to enhance your learning experience.',
+  icon: IconArrowDown,
+  },
+  {
+  title: 'Interactive Learning Widgets',
+  description: 'Engage in interactive learning with our widgets for a better grasp of subjects.',
+  icon: IconArrowDown,
+  },
+  {
+  title: 'Real-Time Progress Tracking',
+  description: 'Stay updated on your progress with real-time tracking and analytics.',
+  icon: IconArrowDown,
+  },
+  {
+  title: 'Collaborative Study Groups',
+  description: 'Form study groups and collaborate with peers on group assignments.',
+  icon: IconArrowDown,
+  },
+  {
+  title: 'Expert Instructor Support',
+  description: 'Receive personalized guidance and support from our expert instructors.',
+  icon: IconArrowDown,
+  },
+  {
+  title: 'Community Forums',
+  description: 'Engage in vibrant community forums to seek advice and share insights.',
+  icon: IconArrowDown,
+  },
   ],
-};
-
-// Content data
-export const contentData: ContentProps = {
+  };
+  
+  // Content data
+  export const contentData: ContentProps = {
   header: {
-    title: 'Aliquip definiebas ad est',
-    subtitle: 'Quando cetero his ne, eum admodum sapientem ut',
-    highlight: 'Content',
+  title: 'Discover the World of Educate!',
+  subtitle: 'Experience a new way of learning with our innovative platform.',
+  highlight: 'Content',
   },
   content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+  'Embark on an enriching educational journey with Educate! Our platform offers a wide array of features and services to make learning enjoyable, interactive, and rewarding. Explore the world of knowledge with us!',
   items: [
-    {
-      title: 'Per ei quaeque sensibus',
-      description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-      description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
-      description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
-    },
+  {
+  title: 'Personalized Learning',
+  description:
+  'Receive personalized learning paths tailored to your individual needs and learning pace.',
+  },
+  {
+  title: 'Hands-On Projects',
+  description:
+  'Gain practical experience and develop essential skills through hands-on projects and simulations.',
+  },
+  {
+  title: 'Collaborative Environment',
+  description:
+  'Connect and collaborate with learners from diverse backgrounds, fostering a rich learning experience.',
+  },
   ],
   image: {
-    src: cameraFrontImg,
-    alt: 'Colorful Image',
+  src: cameraBackImg,
+  alt: 'Educational Image',
   },
   isReversed: false,
   isAfterContent: false,
-};
-
-// Content2 data
-export const content2Data: ContentProps = {
+  };
+  
+  // Content2 data
+  export const content2Data: ContentProps = {
   content:
-    'Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nib dissentias, mei exerci tamquam euripidis cu.',
+  'Experience a new world of knowledge with Educate! Our platform offers an immersive and interactive learning environment where you can discover, learn, and grow. Join us on this journey today!',
   items: [
-    {
-      title: 'Per ei quaeque sensibus',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
-    },
-    {
-      title: 'Per ei quaeque sensibus',
-    },
-    {
-      title: 'Cu imperdiet posidonium sed',
-    },
-    {
-      title: 'Nulla omittam sadipscing mel ne',
-    },
+  {
+  title: 'Personalized Learning',
+  description: 'Receive personalized learning paths tailored to your unique interests and goals.',
+  },
+  {
+  title: 'Hands-On Projects',
+  description: 'Engage in exciting hands-on projects that challenge and expand your skills.',
+  },
+  {
+  title: 'Collaborative Environment',
+  description: 'Join a collaborative community where you can connect and learn together.',
+  },
+  {
+  title: 'Live Webinars',
+  description: 'Participate in live webinars hosted by industry experts and renowned educators.',
+  },
+  {
+  title: 'Skill Badges',
+  description: 'Earn skill badges and certifications to showcase your expertise.',
+  },
+  {
+  title: 'Career Guidance',
+  description: 'Access career guidance and support to excel in your professional journey.',
+  },
   ],
   image: {
-    src: cameraBackImg,
-    alt: 'Colorful Image',
+  src: cameraBackImg,
+  alt: 'Online Learning Image',
   },
   isReversed: true,
   isAfterContent: true,
-};
-
+  };
+  
+  
 // Steps data
 export const stepsData: StepsProps = {
   title: 'Sed ac magna sit amet risus tristique interdum. hac.',
