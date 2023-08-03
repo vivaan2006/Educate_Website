@@ -43,7 +43,7 @@ import {
 } from './types';
 
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
-import cameraBackImg from '~/assets/images/camera-back.jpg';
+import cameraBackImg from '~/assets/images/camera-back.webp';
 import heroImg from '~/assets/images/hero.webp';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
