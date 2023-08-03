@@ -42,7 +42,7 @@ import {
   TestimonialProps,
 } from './types';
 
-import cameraFrontImg from '~/assets/images/camera-front.jpg';
+import cameraFrontImg from '~/assets/images/camera-front.webp';
 import cameraBackImg from '~/assets/images/camera-back.webp';
 import heroImg from '~/assets/images/hero.webp';
 import hero2Img from '~/assets/images/hero2.jpg';
@@ -617,7 +617,7 @@ export const featuresData: FeaturesProps = {
   },
   ],
   image: {
-  src: cameraBackImg,
+  src: cameraFrontImg,
   alt: 'Educational Image',
   },
   isReversed: false,
