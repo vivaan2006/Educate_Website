@@ -811,17 +811,16 @@ export const teamData: TeamProps = {
 // Testimonial data
 export const testimonialData: TestimonialProps = {
   header: {
-    title: 'What our customers say about us',
+    title: 'Why expanding education is important?',
     subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+      'Educate helps expand education to other needed countries is crucial because it empowers individuals, cultivates human capital, and drives socio-economic development, contributing to a more equitable and prosperous global community.',
     // highlight: 'Testimonial',
   },
   testimonials: [
     {
-      name: 'Tayla Kirsten',
-      occupation: 'Marketing Manager',
-      comment:
-        'Suspendisse mollis ante turpis, ut fermentum nulla finibus ac. Integer ut justo id dolor lobortis pharetra. Integer ultrices leo a nunc ullamcorper commodo. In id nulla et nibh pretium pretium non vel metus. Suspendisse dapibus quis lorem sit amet fermentum. Ut a dapibus justo. In faucibus molestie pretium. Cras eros orci, bibendum fringilla elit at, vehicula maximus eros. Aenean placerat aliquet mi, et pellentesque dolor gravida at.',
+      name: 'Malala Yousafzai',
+      occupation: 'Pakistani female education activist',
+      comment: 'One book, one pen, one child, and one teacher can change the world.',
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -830,10 +829,9 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Silver Jordan',
-      occupation: 'Senior Marketer',
-      comment:
-        'Mauris semper enim dolor, ac dictum sapien sollicitudin quis. Quisque id pharetra mi. Phasellus eu posuere lectus, vitae rhoncus velit. Nullam imperdiet purus quis dapibus vestibulum. Integer purus ex, hendrerit at elementum non, varius a nibh. Ut eget convallis mi. Morbi mattis, felis sit amet consectetur scelerisque, odio purus ornare sapien, in feugiat lorem tellus et magna. Pellentesque luctus dolor in ornare mattis.',
+      name: 'Malcolm X',
+      occupation: 'American Human Rights Activist',
+      comment: 'Education is the passport to the future, for tomorrow belongs to those who prepare for it today.',
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -842,10 +840,9 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Kelsey Arden',
-      occupation: 'Co-Founder & CEO',
-      comment:
-        'Sed malesuada rhoncus arcu, sit amet condimentum leo pharetra feugiat. In augue quam, venenatis nec dui in, auctor tempus libero. Aliquam tempus ex id metus viverra blandit. Proin varius venenatis tortor, a pellentesque enim malesuada a. Aliquam lectus magna, interdum eget odio non, consequat imperdiet ipsum.',
+      name: 'Nelson Mandela',
+      occupation: 'Former President of South Africa',
+      comment: 'Education is the most powerful weapon you can use to change the world.',
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -859,52 +856,50 @@ export const testimonialData: TestimonialProps = {
 // Pricing data
 export const pricingData: PricingProps = {
   header: {
-    title: 'Prices for each plan',
+    title: 'Educate\'s Core Curriculum',
     subtitle:
-      'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
+      'Educate provides free access to its courses from 1st through 12th grade.  This includes study in Math, English, Science, and History',
     // highlight: 'Pricing',
   },
   prices: [
     {
-      title: 'basic',
+      title: 'Elementary',
       value: 29,
-      period: 'per month',
+      period: 'Grades K - 6',
       texts: [
-        'Etiam in libero',
-        'Aenean ac nunc',
-        'Cras scelerisque accumsan libero, et volutpat dolor tristique at',
-        'In hac habitasse',
+        'Available in English and Spanish',
+        'Easy video and practice style lectures',
+        'Basic understanding of Math, English, Science, and History up to Grade 6',
       ],
       callToAction: {
-        text: 'Free 7-day trial',
+        text: 'Enroll in Elementary-School Course',
         href: '/',
       },
       hasRibbon: false,
     },
     {
-      title: 'standard',
+      title: 'Middle',
       value: 69,
-      period: 'per month',
-      texts: ['Proin vel laoreet', 'Ut efficitur egestas', 'Pellentesque ut nibh', 'Donec fringilla sem'],
+      period: 'Grades 7 - 8',
+      texts: ['Available in English and Spanish', 'Easy video and practice style lectures', 'Discussion section available for question and answers', 'Understanding of Math, English, Science, and History up to Grade 8'],
       callToAction: {
-        text: 'Free 15-day trial',
+        text: 'Enroll in Middle-School Course',
         href: '/',
       },
-      hasRibbon: true,
-      ribbonTitle: 'Popular',
+      hasRibbon: false,
     },
     {
-      title: 'premium',
+      title: 'High',
       value: 199,
-      period: 'per month',
+      period: 'Grades 9 - 12',
       texts: [
-        'Curabitur suscipit risus',
-        'Aliquam blandit malesuada',
-        'Suspendisse sit amet',
-        'Suspendisse auctor dui',
+        'Available in English and Spanish',
+        'Easy Video and interactive practice style lectures and assignments',
+        'Discussion section available for student interaction and question and answers',
+        'Modest understanding of Math, English, Science, and History up to Grade 12',
       ],
       callToAction: {
-        text: 'Free 30-day trial',
+        text: 'Enroll in High-School Course',
         href: '/',
       },
       hasRibbon: false,
@@ -1057,20 +1052,20 @@ export const statsData: StatsProps = {
 export const contactData: ContactProps = {
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: '',
     highlight: 'Contact',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'If you have any questions that are not resolved on the FAQ page or simply want to chat with the leaders of our organization, please use the contact form to do so.',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['7350 S 900 E,', 'Midvale, Utah,', '84047'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['+1 (801) 897-6896', 'Mail: educate@gmail.com'],
       icon: IconPhoneCall,
     },
     {
@@ -1354,15 +1349,15 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
+      texts: ['7350 S 900 E,', 'Midvale, UT, 84047'],
     },
     {
       title: 'Phone',
-      texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
+      texts: ['Reception: +1 801 897 6896', 'Office: +1 385 484 1010'],
     },
     {
       title: 'Email',
-      texts: ['Office: info@example.com', 'Site: https://example.com'],
+      texts: ['Office: educate@gmail.com', ''],  // Site goes here
     },
   ],
   socials: [

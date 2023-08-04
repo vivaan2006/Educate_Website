@@ -41,7 +41,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     {comment && (
-                      <p className="m-b-30 font-light dark:text-slate-400">{`"${comment.slice(0, 150)}..."`}</p>
+                      <p className="m-b-30 font-light dark:text-slate-400">{`"${comment.slice(0, 150)}"`}</p>
                     )}
                     {href && Icon && <Icon className="mx-auto mt-4 h-6 w-6 text-primary-600 dark:text-slate-200" />}
                   </a>
