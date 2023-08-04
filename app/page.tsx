@@ -12,6 +12,7 @@ import FAQs2 from '~/components/widgets/FAQs2';
 import Pricing from '~/components/widgets/Pricing';
 import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
+
 import {
   callToActionData,
   content2Data,
@@ -40,7 +41,6 @@ export default function Page() {
       <Testimonial />
       <FAQs2 {...faqsData2} />
       <Pricing {...pricingData} />
-      <Team />
       <Contact />
       <CallToAction2 {...callToActionData} />
     </>
