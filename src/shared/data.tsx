@@ -46,7 +46,7 @@ import cameraFrontImg from '~/assets/images/camera-front.webp';
 import cameraBackImg from '~/assets/images/camera-back.webp';
 import heroImg from '~/assets/images/hero.webp';
 import hero2Img from '~/assets/images/hero2.jpg';
-import gasImg from '~/assets/images/gas.jpg';
+import book from '~/assets/images/book.jpg';
 import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
@@ -653,7 +653,7 @@ export const featuresData: FeaturesProps = {
   
 // Steps data
 export const stepsData: StepsProps = {
-  title: 'Sed ac magna sit amet risus tristique interdum. hac.',
+  title: 'How Educate Works?',
   items: [
     {
       title: 'Step 1',
@@ -664,12 +664,12 @@ export const stepsData: StepsProps = {
     {
       title: 'Step 2',
       description:
-      '"Educate" initiates a donation program to offer technology resources, such as educational apps and devices, to underserved communities. This discreet program aims to bridge the digital divide, empowering children in need with valuable tools for learning and growth.',
+      'Educate initiates a donation program to offer technology resources, such as educational apps and devices, to underserved communities. This discreet program aims to bridge the digital divide, empowering children in need with valuable tools for learning and growth.',
       icon: IconArrowDown,
     },
     {
       title: 'Step 3',
-      description:'"Educate" implements an innovative training approach for teachers and students, utilizing technology-driven tools and resources to enhance their skills and knowledge. This discreet and secure method ensures that participants can benefit from a personalized learning experience.',
+      description:'Educate implements an innovative training approach for teachers and students, utilizing technology-driven tools and resources to enhance their skills and knowledge. This discreet and secure method ensures that participants can benefit from a personalized learning experience.',
       icon: IconArrowDown,
     },
     {
@@ -678,7 +678,7 @@ export const stepsData: StepsProps = {
     },
   ],
   image: {
-    src: gasImg,
+    src: book,
     alt: 'Steps image',
   },
 };
