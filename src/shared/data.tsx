@@ -630,18 +630,6 @@ export const featuresData: FeaturesProps = {
   'Experience a new world of knowledge with Educate! Our platform offers an immersive and interactive learning environment where you can discover, learn, and grow. Join us on this journey today!',
   items: [
   {
-  title: 'Personalized Learning',
-  description: 'Receive personalized learning paths tailored to your unique interests and goals.',
-  },
-  {
-  title: 'Hands-On Projects',
-  description: 'Engage in exciting hands-on projects that challenge and expand your skills.',
-  },
-  {
-  title: 'Collaborative Environment',
-  description: 'Join a collaborative community where you can connect and learn together.',
-  },
-  {
   title: 'Live Webinars',
   description: 'Participate in live webinars hosted by industry experts and renowned educators.',
   },
@@ -670,19 +658,18 @@ export const stepsData: StepsProps = {
     {
       title: 'Step 1',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+      'Educate conducts a thorough evaluation to identify regions and communities in underserved areas that require educational support the most. Factors such as socio-economic conditions and limited access to formal education guide the selection process, ensuring focused efforts where the impact can be profound.',
       icon: IconArrowDown,
     },
     {
       title: 'Step 2',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+      '"Educate" initiates a donation program to offer technology resources, such as educational apps and devices, to underserved communities. This discreet program aims to bridge the digital divide, empowering children in need with valuable tools for learning and growth.',
       icon: IconArrowDown,
     },
     {
       title: 'Step 3',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+      description:'"Educate" implements an innovative training approach for teachers and students, utilizing technology-driven tools and resources to enhance their skills and knowledge. This discreet and secure method ensures that participants can benefit from a personalized learning experience.',
       icon: IconArrowDown,
     },
     {
