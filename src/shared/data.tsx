@@ -50,9 +50,9 @@ import gasImg from '~/assets/images/gas.jpg';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
-  title: 'NEW',
+  title: 'Our Donation system is now fully implemented! Your donation makes a big difference !',
   callToAction: {
-    text: 'Our Donation system is now fully implemented! Your donation makes a big difference !',
+    text: '',
     href: '',
   },
   callToAction2: {

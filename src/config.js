@@ -1,10 +1,10 @@
-module.exports.SITE = {
-  name: 'TailNext',
+export const SITE = {
+  name: 'Educate!',
 
-  origin: 'https://tailnext.vercel.app',
+  origin: 'https://educate.vercel.app',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'Educate! — Empowering Young Minds with Knowledge',
+  description: 'Educate! is a free platform that empowers children with interactive learning experiences and curated educational content.',
 };
