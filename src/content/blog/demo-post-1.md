@@ -1,5 +1,5 @@
 ---
-publishDate: 'Nov 02 2022'
+publishDate: 'August 5, 2023'
 title: 'Empowering Education: Bridging the Digital Divide'
 description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'

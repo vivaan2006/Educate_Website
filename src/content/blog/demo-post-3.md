@@ -1,5 +1,5 @@
 ---
-publishDate: 'Nov 02 2022'
+publishDate: 'August 5, 2023'
 title: 'Building Strong Foundations: The Power of Parental Involvement in Education'
 description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
