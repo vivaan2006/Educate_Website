@@ -288,11 +288,12 @@ export const faqs3Data: FAQsProps = {
 };
 
 // FAQS4 data
+// Updated FAQs data
 export const faqs4Data: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Praesent rutrum purus in sem blandit, in consectetur mi pharetra. Ut sagittis sapien sit amet congue cursus. Nulla eu elementum ex, tincidunt semper nisi.',
+      'Here are some common questions and answers to help you better understand Educate! and our mission to empower children through education.',
     highlight: 'FAQS',
     position: 'center',
   },
@@ -304,84 +305,100 @@ export const faqs4Data: FAQsProps = {
       },
       items: [
         {
-          title: 'What do I need to start?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          title: 'What is Educate!?',
+          description:
+            'Educate! is a non-profit organization dedicated to providing a rich and interactive learning experience for children. We aim to inspire, educate, and empower young minds by offering curated educational content and personalized learning paths.',
         },
         {
-          title: 'How to install the NextJS + Tailwind CSS template?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+          title: 'How can I contribute to Educate!?',
+          description:
+            'You can support our mission by donating directly to provide access to quality education for underprivileged children. We also welcome volunteers and partnerships with like-minded organizations to expand our reach.',
         },
         {
-          title: "What's something that you completely don't understand?",
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+          title: 'How does Educate! make education accessible to underprivileged children?',
+          description:
+            'For every subscription to our educational platform, we sponsor a child in need, ensuring that more children have access to quality learning resources and opportunities.',
         },
         {
-          title: "What's an example of when you changed your mind?",
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+          title: 'Who are the educators and mentors at Educate!?',
+          description:
+            'Our team consists of experienced and dedicated educators and mentors who are passionate about nurturing the talents and creativity of every child. They create engaging content and support personalized learning journeys.',
         },
         {
-          title: 'What is something that you would really like to try again?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+          title: 'Can children explore subjects at their own pace?',
+          description:
+            'Yes, at Educate!, we believe in personalized learning, allowing children to explore subjects and topics at their own pace and according to their unique learning styles.',
         },
         {
-          title: 'If you could only ask one question to each person you meet, what would that question be?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+          title: 'How can I join the supportive learning community at Educate!?',
+          description:
+            'You can join our vibrant learning community by becoming a subscriber. Our community allows children to collaborate, share ideas, and grow together in a positive and inspiring environment.',
         },
       ],
     },
     {
       link: {
-        label: 'Plans, prices and payments',
+        label: 'Donations and Sponsorship',
         href: '/tab2',
       },
       items: [
         {
-          title: 'Which plan is best for me?',
-          description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+          title: 'How can I donate to Educate!?',
+          description:
+            'Donating to Educate! is simple. Visit our website and click on the "Donate" button to contribute directly to our programs. Your donations make a meaningful impact in providing education to those in need.',
         },
         {
-          title: 'What are my payment options?',
-          description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+          title: 'Is my donation tax-deductible?',
+          description:
+            'Yes, Educate! is a registered non-profit organization, and your donations are tax-deductible in accordance with local regulations. You will receive a tax receipt for your contribution.',
         },
         {
-          title: 'How do I change my plan to a different one?',
-          description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+          title: 'What happens to my donation?',
+          description:
+            'Your donation directly supports our educational initiatives, including sponsoring underprivileged children, developing engaging content, and providing resources for educators and mentors.',
         },
         {
-          title: 'What happen at the end of my free trial?',
-          description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+          title: 'Can I sponsor a specific child?',
+          description:
+            'While we don’t offer direct child sponsorship, your donation contributes to our pool of sponsored children, ensuring that each child receives equal opportunities for education and personal growth.',
         },
         {
-          title: 'Can I import data from other tools?',
-          description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+          title: 'Are there other ways to support Educate! besides donations?',
+          description:
+            'Absolutely! In addition to monetary donations, you can contribute by spreading awareness about our cause, volunteering your time and skills, or forming partnerships with Educate! to expand our reach and impact.',
         },
         {
-          title: 'Can I cancel my plan at any time?',
-          description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+          title: 'How can organizations partner with Educate!?',
+          description:
+            'If your organization shares our vision for education and empowerment, we welcome partnerships to create a larger impact together. Please reach out to us through the contact form for more details.',
         },
       ],
     },
     {
       link: {
-        label: 'Others',
+        label: 'Getting Started',
         href: '/tab3',
       },
       items: [
         {
-          title: 'How do I download the template?',
-          description: `In ullamcorper pellentesque ante, nec commodo ex euismod viverra. Phasellus facilisis, justo a bibendum pellentesque, nibh est egestas lectus, volutpat ullamcorper arcu ante ac dolor.`,
+          title: 'How do I access Educate! courses and resources?',
+          description:
+            'All courses and educational resources at Educate! are completely free for every child. Simply visit our website, sign up for a free account, and you will have full access to our engaging learning materials.',
         },
         {
-          title: 'How do I customize the template?',
-          description: `Pellentesque semper euismod malesuada. Curabitur quis lectus tortor. Aliquam efficitur pretium tellus, ut sagittis turpis dignissim eget. Etiam scelerisque nec risus eget iaculis. Nunc maximus metus id felis dapibus, sed ullamcorper sapien faucibus.`,
+          title: 'How can I get help with technical issues?',
+          description:
+            'If you encounter any technical issues or need assistance while using our platform, you can reach out to our friendly support team through the contact form, and they will be happy to assist you.',
         },
         {
-          title: 'Does the template come with any tutorials or instructions?',
-          description: `Sed sagittis arcu suscipit auctor suscipit. Nam dapibus risus vitae tristique fermentum. In egestas turpis elit, id gravida diam dictum eu. Ut dictum libero ut rhoncus egestas. Ut sit amet tortor blandit, faucibus tellus vitae, consequat purus. Nullam id odio enim.`,
+          title: 'Can I cancel my subscription at any time?',
+          description:
+            'You do not need to worry about subscription cancellations, as all content and resources are available for free. However, if you have any concerns or questions, our support team is here to help.',
         },
         {
-          title: 'Are there any additional fees or charges for using the template?',
-          description: `Fusce efficitur, augue et vulputate pharetra, augue turpis viverra turpis, id tempor purus eros sed erat. Curabitur blandit eget sem vitae malesuada.`,
+          title: 'How can I provide feedback or suggest improvements?',
+          description:
+            'We welcome feedback and suggestions from our subscribers to continually enhance our platform and learning experience. You can share your thoughts through the contact form or by reaching out to our support team.',
         },
       ],
     },
@@ -429,11 +446,11 @@ export const callToActionData: CallToActionProps = {
   // ],
 };
 
-// CallToAction2 data
+// Updated call to action data
 export const callToActionData2: CallToActionProps = {
   title: 'Still have questions?',
   subtitle:
-    'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in leo odio. Cras finibus ex a ante convallis ullamcorper.',
+    'If you have any more questions or need further assistance, feel free to get in touch with us. Our dedicated support team is here to help you every step of the way.',
   callToAction: {
     text: 'Contact us',
     href: '/contact',
