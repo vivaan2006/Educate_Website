@@ -45,8 +45,8 @@ import {
 import cameraFrontImg from '~/assets/images/camera-front.webp';
 import cameraBackImg from '~/assets/images/camera-back.webp';
 import heroImg from '~/assets/images/hero.webp';
-import hero2Img from '~/assets/images/hero2.jpg';
-import gasImg from '~/assets/images/gas.jpg';
+import hero2Img from '~/assets/images/books.webp';
+import gasImg from '~/assets/images/class.webp';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
