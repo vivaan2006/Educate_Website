@@ -10,7 +10,6 @@ import Steps from '~/components/widgets/Steps';
 import Testimonial from '~/components/widgets/Testimonial';
 import FAQs2 from '~/components/widgets/FAQs2';
 import Pricing from '~/components/widgets/Pricing';
-import Team from '~/components/widgets/Team';
 import CallToAction2 from '~/components/widgets/CallToAction2';
 
 import {

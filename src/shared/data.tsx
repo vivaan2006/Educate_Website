@@ -47,20 +47,16 @@ import cameraBackImg from '~/assets/images/camera-back.webp';
 import heroImg from '~/assets/images/hero.webp';
 import hero2Img from '~/assets/images/hero2.jpg';
 import gasImg from '~/assets/images/gas.jpg';
-import nextJsLogo from '~/assets/images/nextjs-logo.png';
-import reactLogo from '~/assets/images/react-logo.png';
-import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
-import typescriptLogo from '~/assets/images/typescript-logo.png';
 
 // Announcement data
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
     text: 'Our Donation system is now fully implemented! Your donation makes a big difference !',
-    href: 'https://nextjs.org/docs/app',
+    href: '',
   },
   callToAction2: {
-    text: 'Follow @onWidget on Twitter',
+    text: '',
     href: '',
   },
 };
@@ -407,43 +403,7 @@ export const faqs4Data: FAQsProps = {
 
 // CallToAction data
 export const callToActionData: CallToActionProps = {
-  // title: 'Next.js + Tailwind CSS',
-  // subtitle:
-  //   'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-  // callToAction: {
-  //   text: 'Get template',
-  //   href: 'https://github.com/onwidget/tailnext',
-  //   icon: IconDownload,
-  // },
-  // items: [
-  //   {
-  //     title: 'Get template',
-  //     description: 'Aliquam sodales est lectus, quis.',
-  //     href: 'https://github.com/onwidget/tailnext',
-  //   },
-  //   {
-  //     title: 'Learn more',
-  //     description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-  //     href: '/',
-  //   },
-  //   {
-  //     title: 'Subscribe',
-  //     description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-  //     form: {
-  //       icon: IconMail,
-  //       input: {
-  //         type: 'email',
-  //         name: 'email',
-  //         autocomplete: 'email',
-  //         placeholder: 'Enter your email address',
-  //       },
-  //       btn: {
-  //         title: 'Subscribe',
-  //         type: 'submit',
-  //       },
-  //     },
-  //   },
-  // ],
+
 };
 
 // Updated call to action data
@@ -701,107 +661,75 @@ export const stepsData: StepsProps = {
 // Team data
 export const teamData: TeamProps = {
   header: {
-    title: 'Team Members',
+    title: '',
     subtitle:
-      'Suspendisse in dui nibh. Donec enim leo, sodales et egestas id, malesuada non diam. Sed dapibus velit et mauris condimentum, vel imperdiet erat egestas.',
-    // highlight: 'Team',
+      '',
   },
   teams: [
     {
-      name: 'Cindy Belcher',
-      occupation: 'SEO Consultant',
+      name: '',
+      occupation: '',
       image: {
-        src: 'https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Cindy Belcher',
+        src: '',
+        alt: '',
+      },
+      items: []
+    },
+    {
+      name: '',
+      occupation: '',
+      image: {
+        src: '',
+        alt: '',
+      },
+      items: [
+      ],
+    },
+    {
+      name: '',
+      occupation: '',
+      image: {
+        src: '',
+        alt: '',
       },
       items: [
         {
-          title: 'Know more on Twitter',
+          title: '',
           icon: IconBrandTwitter,
           href: '#',
         },
         {
-          title: 'Know more on Linkedin',
+          title: '',
           icon: IconBrandLinkedin,
           href: '#',
         },
         {
-          title: 'Contact by email',
+          title: '',
           icon: IconMail,
           href: '#',
         },
       ],
     },
     {
-      name: 'Toby Foster',
-      occupation: 'Marketing Tech',
+      name: '',
+      occupation: '',
       image: {
-        src: 'https://images.unsplash.com/photo-1614583224978-f05ce51ef5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2172&q=80',
-        alt: 'Toby Foster',
+        src: '',
+        alt: '',
       },
       items: [
         {
-          title: 'Know more on Twitter',
+          title: '',
           icon: IconBrandTwitter,
           href: '#',
         },
         {
-          title: 'Know more on Linkedin',
+          title: '',
           icon: IconBrandLinkedin,
           href: '#',
         },
         {
-          title: 'Contact by email',
-          icon: IconMail,
-          href: '#',
-        },
-      ],
-    },
-    {
-      name: 'Clark Bourne',
-      occupation: 'Content Manager',
-      image: {
-        src: 'https://images.unsplash.com/photo-1639628735078-ed2f038a193e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Clark Bourne',
-      },
-      items: [
-        {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
-          title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
-          href: '#',
-        },
-        {
-          title: 'Contact by email',
-          icon: IconMail,
-          href: '#',
-        },
-      ],
-    },
-    {
-      name: 'Bella Chase',
-      occupation: 'UX Designer',
-      image: {
-        src: 'https://images.unsplash.com/photo-1628260412297-a3377e45006f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Bella Chase',
-      },
-      items: [
-        {
-          title: 'Know more on Twitter',
-          icon: IconBrandTwitter,
-          href: '#',
-        },
-        {
-          title: 'Know more on Linkedin',
-          icon: IconBrandLinkedin,
-          href: '#',
-        },
-        {
-          title: 'Contact by email',
+          title: '',
           icon: IconMail,
           href: '#',
         },
@@ -1185,7 +1113,7 @@ export const contact2Data: ContactProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'TailNext',
+  title: 'Educate!',
   links: [
     {
       label: 'Terms & Conditions',
@@ -1307,15 +1235,15 @@ export const footerData: FooterProps = {
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
+    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/vivaan2006/Educate_Website' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
       <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
       Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
+      <a className="text-blue-600 hover:underline dark:text-gray-200" href="">
         {' '}
-        onWidget
+        Educate!
       </a>{' '}
       · All rights reserved.
     </div>
@@ -1360,7 +1288,7 @@ export const footerData2: FooterProps = {
       Made by{' '}
       <a className="text-blue-600 hover:underline dark:text-gray-200">
         {' '}
-        Educate
+        Educate!
       </a>{' '}
       · All rights reserved.
     </div>
