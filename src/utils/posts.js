@@ -28,7 +28,7 @@ export const fetchPosts = async () => {
 };
 
 export const findLatestPosts = async ({ count } = {}) => {
-  const _count = count || 8; // change if u want more articles, multiples of 2
+  const _count = count || 6; // change if u want more articles, multiples of 2
   const posts = await fetchPosts();
 
   return posts ? posts.slice(0, _count) : [];
