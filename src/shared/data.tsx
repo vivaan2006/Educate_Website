@@ -1013,24 +1013,7 @@ export const comparisonData: ComparisonProps = {
 
 // Stats
 export const statsData: StatsProps = {
-  items: [
-    {
-      title: 13269,
-      description: 'Downloads',
-    },
-    {
-      title: 24.8,
-      description: 'Stars',
-    },
-    {
-      title: 1767.77,
-      description: 'Forks',
-    },
-    {
-      title: 484000,
-      description: 'Users',
-    },
-  ],
+  items: []
 };
 
 // Contact data
