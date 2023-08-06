@@ -390,43 +390,43 @@ export const faqs4Data: FAQsProps = {
 
 // CallToAction data
 export const callToActionData: CallToActionProps = {
-  title: 'Next.js + Tailwind CSS',
-  subtitle:
-    'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
-  callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
-  },
-  items: [
-    {
-      title: 'Get template',
-      description: 'Aliquam sodales est lectus, quis.',
-      href: 'https://github.com/onwidget/tailnext',
-    },
-    {
-      title: 'Learn more',
-      description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
-      href: '/',
-    },
-    {
-      title: 'Subscribe',
-      description: 'Morbi orci nunc, euismod ac dui id, convallis.',
-      form: {
-        icon: IconMail,
-        input: {
-          type: 'email',
-          name: 'email',
-          autocomplete: 'email',
-          placeholder: 'Enter your email address',
-        },
-        btn: {
-          title: 'Subscribe',
-          type: 'submit',
-        },
-      },
-    },
-  ],
+  // title: 'Next.js + Tailwind CSS',
+  // subtitle:
+  //   'Aliquam sodales porttitor lacus ac tristique. Etiam posuere elit at leo feugiat sodales. Sed ac mauris quis sem tempor condimentum non at metus.',
+  // callToAction: {
+  //   text: 'Get template',
+  //   href: 'https://github.com/onwidget/tailnext',
+  //   icon: IconDownload,
+  // },
+  // items: [
+  //   {
+  //     title: 'Get template',
+  //     description: 'Aliquam sodales est lectus, quis.',
+  //     href: 'https://github.com/onwidget/tailnext',
+  //   },
+  //   {
+  //     title: 'Learn more',
+  //     description: 'Class aptent taciti sociosqu ad litora torquent per conubia.',
+  //     href: '/',
+  //   },
+  //   {
+  //     title: 'Subscribe',
+  //     description: 'Morbi orci nunc, euismod ac dui id, convallis.',
+  //     form: {
+  //       icon: IconMail,
+  //       input: {
+  //         type: 'email',
+  //         name: 'email',
+  //         autocomplete: 'email',
+  //         placeholder: 'Enter your email address',
+  //       },
+  //       btn: {
+  //         title: 'Subscribe',
+  //         type: 'submit',
+  //       },
+  //     },
+  //   },
+  // ],
 };
 
 // CallToAction2 data
@@ -630,18 +630,6 @@ export const featuresData: FeaturesProps = {
   'Experience a new world of knowledge with Educate! Our platform offers an immersive and interactive learning environment where you can discover, learn, and grow. Join us on this journey today!',
   items: [
   {
-  title: 'Personalized Learning',
-  description: 'Receive personalized learning paths tailored to your unique interests and goals.',
-  },
-  {
-  title: 'Hands-On Projects',
-  description: 'Engage in exciting hands-on projects that challenge and expand your skills.',
-  },
-  {
-  title: 'Collaborative Environment',
-  description: 'Join a collaborative community where you can connect and learn together.',
-  },
-  {
   title: 'Live Webinars',
   description: 'Participate in live webinars hosted by industry experts and renowned educators.',
   },
@@ -665,24 +653,21 @@ export const featuresData: FeaturesProps = {
   
 // Steps data
 export const stepsData: StepsProps = {
-  title: 'Sed ac magna sit amet risus tristique interdum. hac.',
+  title: 'How Educate Works?',
   items: [
     {
       title: 'Step 1',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+      description: '"Educate" conducts a thorough evaluation to identify regions and communities in underserved areas that require educational support the most. Factors such as socio-economic conditions and limited access to formal education guide the selection process, ensuring focused efforts where the impact can be profound.',
       icon: IconArrowDown,
     },
     {
       title: 'Step 2',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+      description: '"Educate" initiates a donation program to offer technology resources, such as educational apps and devices, to underserved communities. This discreet program aims to bridge the digital divide, empowering children in need with valuable tools for learning and growth.',
       icon: IconArrowDown,
     },
     {
       title: 'Step 3',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+      description: '"Educate" implements an innovative training approach for teachers and students, utilizing technology-driven tools and resources to enhance their skills and knowledge. This discreet and secure method ensures that participants can benefit from a personalized learning experience',
       icon: IconArrowDown,
     },
     {
@@ -811,17 +796,15 @@ export const teamData: TeamProps = {
 // Testimonial data
 export const testimonialData: TestimonialProps = {
   header: {
-    title: 'What our customers say about us',
-    subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+    title: 'Why expanding education is important?',
+    subtitle: '',
     // highlight: 'Testimonial',
   },
   testimonials: [
     {
-      name: 'Tayla Kirsten',
-      occupation: 'Marketing Manager',
-      comment:
-        'Suspendisse mollis ante turpis, ut fermentum nulla finibus ac. Integer ut justo id dolor lobortis pharetra. Integer ultrices leo a nunc ullamcorper commodo. In id nulla et nibh pretium pretium non vel metus. Suspendisse dapibus quis lorem sit amet fermentum. Ut a dapibus justo. In faucibus molestie pretium. Cras eros orci, bibendum fringilla elit at, vehicula maximus eros. Aenean placerat aliquet mi, et pellentesque dolor gravida at.',
+      name: 'Malala Yousafzai',
+      occupation: 'Pakistani Female Education Activist',
+      comment: 'One child, one teacher, one pen and one book can change the world.',
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -830,10 +813,9 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Silver Jordan',
-      occupation: 'Senior Marketer',
-      comment:
-        'Mauris semper enim dolor, ac dictum sapien sollicitudin quis. Quisque id pharetra mi. Phasellus eu posuere lectus, vitae rhoncus velit. Nullam imperdiet purus quis dapibus vestibulum. Integer purus ex, hendrerit at elementum non, varius a nibh. Ut eget convallis mi. Morbi mattis, felis sit amet consectetur scelerisque, odio purus ornare sapien, in feugiat lorem tellus et magna. Pellentesque luctus dolor in ornare mattis.',
+      name: 'Malcolm X',
+      occupation: 'American Human Rights Activist',
+      comment: 'Education is the passport to the future, for tomorrow belongs to those who prepare for it today.',
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -842,10 +824,9 @@ export const testimonialData: TestimonialProps = {
       href: '#',
     },
     {
-      name: 'Kelsey Arden',
-      occupation: 'Co-Founder & CEO',
-      comment:
-        'Sed malesuada rhoncus arcu, sit amet condimentum leo pharetra feugiat. In augue quam, venenatis nec dui in, auctor tempus libero. Aliquam tempus ex id metus viverra blandit. Proin varius venenatis tortor, a pellentesque enim malesuada a. Aliquam lectus magna, interdum eget odio non, consequat imperdiet ipsum.',
+      name: 'Nelson Mandela',
+      occupation: 'First President of South Africa',
+      comment: 'Education is the most powerful weapon you can use to change the world.',
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: '',
@@ -859,52 +840,51 @@ export const testimonialData: TestimonialProps = {
 // Pricing data
 export const pricingData: PricingProps = {
   header: {
-    title: 'Prices for each plan',
-    subtitle:
-      'Proin eget vestibulum sem, vel ultrices ligula. Vestibulum in eleifend lectus, non mollis odio. Donec nibh ipsum, suscipit non pulvinar quis, lobortis ac lorem.',
+    title: 'Educate\'s Core Curriculum',
+    subtitle: '',
     // highlight: 'Pricing',
   },
   prices: [
     {
-      title: 'basic',
-      value: 29,
-      period: 'per month',
+      title: 'Elementary',
+      value: 0,
+      period: 'Grades K - 6',
       texts: [
-        'Etiam in libero',
-        'Aenean ac nunc',
-        'Cras scelerisque accumsan libero, et volutpat dolor tristique at',
-        'In hac habitasse',
+        'Available in English and Spanish',
+        'Core subjects in Math, Science, History, and English',
+        'Videos and virtual assignments and live progress tracking',
+        'Content from Kindergarten to Grade 6',
       ],
       callToAction: {
-        text: 'Free 7-day trial',
+        text: 'Enroll in Elementary School',
         href: '/',
       },
       hasRibbon: false,
     },
     {
-      title: 'standard',
-      value: 69,
-      period: 'per month',
-      texts: ['Proin vel laoreet', 'Ut efficitur egestas', 'Pellentesque ut nibh', 'Donec fringilla sem'],
+      title: 'Middle',
+      value: 0,
+      period: 'Grades 7 - 8',
+      texts: ['Available in English and Spanish', 'Core subjects in Math, Science, History, and English', 'Videos, virutal assignments, and discussion forum for dynamic learning environment', 'Content from Grade 7 to Grade 8'],
       callToAction: {
-        text: 'Free 15-day trial',
+        text: 'Enroll in Middle School',
         href: '/',
       },
-      hasRibbon: true,
-      ribbonTitle: 'Popular',
+      hasRibbon: false,
+      ribbonTitle: '',
     },
     {
-      title: 'premium',
-      value: 199,
-      period: 'per month',
+      title: 'High',
+      value: 0,
+      period: 'Grade 9 - 12',
       texts: [
-        'Curabitur suscipit risus',
-        'Aliquam blandit malesuada',
-        'Suspendisse sit amet',
-        'Suspendisse auctor dui',
+        'Available in English and Spanish',
+        'Core subjects in Math, Science, History, and English',
+        'Videos, virtual assignments, discussion forums, and college counseling for interactive learning experience',
+        'Content from Grade 9 to Grade 12',
       ],
       callToAction: {
-        text: 'Free 30-day trial',
+        text: 'Enroll in High School',
         href: '/',
       },
       hasRibbon: false,
@@ -1057,20 +1037,19 @@ export const statsData: StatsProps = {
 export const contactData: ContactProps = {
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: '',
     highlight: 'Contact',
   },
-  content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+  content: 'If you have any questions about our program or need some help, feel free to use the contact form to reach out to us',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['7350 S 900 E', 'Midvale, UT', '84047'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +1 (801) 897-6896', 'Mail: educate@gmail.com'],
       icon: IconPhoneCall,
     },
     {
@@ -1354,15 +1333,15 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
+      texts: ['7350 S 900 E', 'Midvale, UT 84047'],
     },
     {
       title: 'Phone',
-      texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
+      texts: ['Reception: +1 (801) 897-6896', 'Office: +1 (385) 429-1350'],
     },
     {
       title: 'Email',
-      texts: ['Office: info@example.com', 'Site: https://example.com'],
+      texts: ['Office: educate@gmail.com', ''],
     },
   ],
   socials: [
@@ -1370,15 +1349,14 @@ export const footerData2: FooterProps = {
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
       <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
       Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
+      <a className="text-blue-600 hover:underline dark:text-gray-200">
         {' '}
-        onWidget
+        Educate
       </a>{' '}
       · All rights reserved.
     </div>
