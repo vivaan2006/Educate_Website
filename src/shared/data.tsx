@@ -849,47 +849,13 @@ export const comparisonData: ComparisonProps = {
     {
       title: 'compare plans',
       items: [
-        {
-          title: 'In vitae finibus',
-        },
-        {
-          title: 'Cras sollicitudin',
-        },
-        {
-          title: 'Suspendisse',
-        },
-        {
-          title: 'Vestibulum ornare',
-        },
-        {
-          title: 'In hendrerit',
-        },
-        {
-          title: 'Ut pharetra',
-        },
+
       ],
     },
     {
       title: 'basic',
       items: [
-        {
-          title: 'Free 7-day trial',
-        },
-        {
-          title: 'Limited',
-        },
-        {
-          title: '$29',
-        },
-        {
-          title: false,
-        },
-        {
-          title: false,
-        },
-        {
-          title: true,
-        },
+        
       ],
       callToAction: {
         text: 'Get started',
@@ -900,24 +866,7 @@ export const comparisonData: ComparisonProps = {
     {
       title: 'standard',
       items: [
-        {
-          title: 'Free 15-day trial',
-        },
-        {
-          title: 'Unlimited',
-        },
-        {
-          title: '$69',
-        },
-        {
-          title: false,
-        },
-        {
-          title: true,
-        },
-        {
-          title: true,
-        },
+       
       ],
       callToAction: {
         text: 'Get started',
@@ -928,24 +877,7 @@ export const comparisonData: ComparisonProps = {
     {
       title: 'premium',
       items: [
-        {
-          title: 'Free 30-day trial',
-        },
-        {
-          title: 'Unlimited',
-        },
-        {
-          title: '$199',
-        },
-        {
-          title: true,
-        },
-        {
-          title: true,
-        },
-        {
-          title: true,
-        },
+        
       ],
       callToAction: {
         text: 'Get started',
