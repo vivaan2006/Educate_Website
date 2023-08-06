@@ -1,4 +1,4 @@
-export const SITE = {
+module.exports.SITE = {
   name: 'Educate!',
 
   origin: 'https://educate.vercel.app',
