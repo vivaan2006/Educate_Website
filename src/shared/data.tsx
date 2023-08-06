@@ -1020,10 +1020,11 @@ export const statsData: StatsProps = {
 export const contactData: ContactProps = {
   header: {
     title: 'Get in Touch',
-    subtitle: '',
+    subtitle: 'Empowering Young Minds with Knowledge',
     highlight: 'Contact',
   },
-  content: 'If you have any questions about our program or need some help, feel free to use the contact form to reach out to us',
+  content:
+    'If you have any questions about our program or need some help, feel free to use the contact form to reach out to us.',
   items: [
     {
       title: 'Our Address',
@@ -1032,11 +1033,11 @@ export const contactData: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (801) 897-6896', 'Mail: educate@gmail.com'],
+      description: ['Mobile: +1 (801) 897-6896', 'Email: contact@educate.org'],
       icon: IconPhoneCall,
     },
     {
-      title: 'Working hours',
+      title: 'Working Hours',
       description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
       icon: IconClock,
     },
@@ -1070,68 +1071,71 @@ export const contactData: ContactProps = {
   },
 };
 
-// Contact2 data balhhb!!!!!!!!
+// Contact2 data
 export const contact2Data: ContactProps = {
   header: {
     title: 'Get in Touch',
-    subtitle: 'In hac habitasse platea dictumst',
+    subtitle: 'Inspire, Educate, and Empower',
     highlight: 'Contact',
   },
   content:
-    'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.',
+    'If you have any inquiries or would like to learn more about our initiatives, please don\'t hesitate to get in touch with us. We are eager to make a difference!',
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['1230 Maecenas Street', 'New York, USA'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +1 (123) 456-7890', 'Email: info@educate.org'],
       icon: IconPhoneCall,
     },
     {
-      title: 'Working hours',
+      title: 'Working Hours',
       description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
       icon: IconClock,
     },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    title: 'Ready to Get Involved?',
     description:
-      'Mauris consequat, urna vel varius auctor, enim risus ornare felis, at hendrerit erat justo eu justo. Curabitur sagittis efficitur aliquam. Duis eget porttitor lectus, vel pharetra ex. Nam volutpat nibh ut porta egestas.',
+      'We welcome you to join us in our mission to empower young minds with knowledge. Please share your interests, and we will be glad to assist you further!',
     inputs: [
       {
         type: 'text',
-        label: 'First name',
-        name: 'name',
+        label: 'First Name',
+        name: 'firstName',
         autocomplete: 'given-name',
-        placeholder: 'First name',
+        placeholder: 'Your first name',
       },
       {
         type: 'text',
-        label: 'Last name',
+        label: 'Last Name',
         name: 'lastName',
-        placeholder: 'Last name',
+        placeholder: 'Your last name',
       },
       {
         type: 'email',
-        label: 'Email address',
+        label: 'Email Address',
         name: 'email',
-        placeholder: 'Email address',
+        placeholder: 'Your email address',
       },
     ],
     radioBtns: {
       label: 'What is the reason for your contact?',
       radios: [
         {
-          label: 'General inquiries',
+          label: 'General Inquiries',
         },
         {
-          label: 'Technical help',
+          label: 'Volunteering Opportunities',
         },
         {
-          label: 'Claims',
+          label: 'Donation and Sponsorship',
+        },
+        {
+          label: 'Partnerships',
         },
         {
           label: 'Others',
@@ -1141,17 +1145,17 @@ export const contact2Data: ContactProps = {
     textarea: {
       cols: 30,
       rows: 5,
-      label: 'How can we help you?',
+      label: 'How Can We Assist You?',
       name: 'textarea',
-      placeholder: 'Write your message...',
+      placeholder: 'Share your message...',
     },
     checkboxes: [
       {
-        label: 'Have you read our privacy policy?',
+        label: 'I have read and agree to the Privacy Policy.',
         value: '',
       },
       {
-        label: 'Do you want to receive monthly updates by email?',
+        label: 'Please subscribe me to the Educate! newsletter for updates.',
         value: '',
       },
     ],
