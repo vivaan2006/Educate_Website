@@ -402,9 +402,17 @@ export const faqs4Data: FAQsProps = {
 };
 
 // CallToAction data
+// CallToAction data
 export const callToActionData: CallToActionProps = {
-
+  title: 'Educate!',
+  subtitle: 'Education for All!',
+  callToAction: {
+    text: 'Contact us',
+    href: '/contact',
+    btnType: 'primary',
+  },
 };
+
 
 // Updated call to action data
 export const callToActionData2: CallToActionProps = {
